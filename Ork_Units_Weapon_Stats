@@ -1,0 +1,275 @@
+;A configuration File
+
+;A configuration File
+[Lost2Ork.X2Item_OrkWeapons]
+
+Generic_Melee_Accuracy=10; this only applies to secondary attacks of units whose main attacks are not melee - e.g. Stunlancer, Archon, etc.
+
+SHORT_CONVENTIONAL_RANGE[0] = 0
+SHORT_CONVENTIONAL_RANGE[1] = 40
+SHORT_CONVENTIONAL_RANGE[2] = 35
+SHORT_CONVENTIONAL_RANGE[3] = 32
+SHORT_CONVENTIONAL_RANGE[4] = 28
+SHORT_CONVENTIONAL_RANGE[5] = 23
+SHORT_CONVENTIONAL_RANGE[6] = 19
+SHORT_CONVENTIONAL_RANGE[7] = 16
+SHORT_CONVENTIONAL_RANGE[8] = 12
+SHORT_CONVENTIONAL_RANGE[9] = 6
+SHORT_CONVENTIONAL_RANGE[10] = 2
+SHORT_CONVENTIONAL_RANGE[11] = 0
+SHORT_CONVENTIONAL_RANGE[12] = -2
+SHORT_CONVENTIONAL_RANGE[13] = -4
+SHORT_CONVENTIONAL_RANGE[14] = -7
+SHORT_CONVENTIONAL_RANGE[15] = -10
+SHORT_CONVENTIONAL_RANGE[16] = -12
+SHORT_CONVENTIONAL_RANGE[17] = -15
+SHORT_CONVENTIONAL_RANGE[18] = -17
+SHORT_CONVENTIONAL_RANGE[19] = -18
+SHORT_CONVENTIONAL_RANGE[20] = -18
+SHORT_CONVENTIONAL_RANGE[21] = -19
+SHORT_CONVENTIONAL_RANGE[22] = -19
+SHORT_CONVENTIONAL_RANGE[23] = -21
+SHORT_CONVENTIONAL_RANGE[24] = -25
+SHORT_CONVENTIONAL_RANGE[25] = -30
+
+FLAT_CONVENTIONAL_RANGE[0] = 0
+FLAT_CONVENTIONAL_RANGE[1] = 0
+FLAT_CONVENTIONAL_RANGE[2] = 0
+FLAT_CONVENTIONAL_RANGE[3] = 0
+FLAT_CONVENTIONAL_RANGE[4] = 0
+FLAT_CONVENTIONAL_RANGE[5] = 0
+FLAT_CONVENTIONAL_RANGE[6] = 0
+FLAT_CONVENTIONAL_RANGE[7] = 0
+FLAT_CONVENTIONAL_RANGE[8] = 0
+FLAT_CONVENTIONAL_RANGE[9] = 0
+FLAT_CONVENTIONAL_RANGE[10] = 0
+FLAT_CONVENTIONAL_RANGE[11] = 0
+FLAT_CONVENTIONAL_RANGE[12] = 0
+FLAT_CONVENTIONAL_RANGE[13] = 0
+FLAT_CONVENTIONAL_RANGE[14] = 0
+FLAT_CONVENTIONAL_RANGE[15] = 0
+FLAT_CONVENTIONAL_RANGE[16] = 0
+FLAT_CONVENTIONAL_RANGE[17] = 0
+FLAT_CONVENTIONAL_RANGE[18] = 0
+FLAT_CONVENTIONAL_RANGE[19] = 0
+FLAT_CONVENTIONAL_RANGE[20] = 0
+FLAT_CONVENTIONAL_RANGE[21] = 0
+FLAT_CONVENTIONAL_RANGE[22] = 0
+FLAT_CONVENTIONAL_RANGE[23] = 0
+FLAT_CONVENTIONAL_RANGE[24] = 0
+FLAT_CONVENTIONAL_RANGE[25] = 0
+
+LONG_CONVENTIONAL_RANGE[0] = 0
+LONG_CONVENTIONAL_RANGE[1] = -30
+LONG_CONVENTIONAL_RANGE[2] = -27
+LONG_CONVENTIONAL_RANGE[3] = -24
+LONG_CONVENTIONAL_RANGE[4] = -21
+LONG_CONVENTIONAL_RANGE[5] = -18
+LONG_CONVENTIONAL_RANGE[6] = -15
+LONG_CONVENTIONAL_RANGE[7] = -12
+LONG_CONVENTIONAL_RANGE[8] = -9
+LONG_CONVENTIONAL_RANGE[9] = -6
+LONG_CONVENTIONAL_RANGE[10] = -3
+LONG_CONVENTIONAL_RANGE[11] = 0
+LONG_CONVENTIONAL_RANGE[12] = 0
+LONG_CONVENTIONAL_RANGE[13] = 0
+LONG_CONVENTIONAL_RANGE[14] = 0
+LONG_CONVENTIONAL_RANGE[15] = 0
+LONG_CONVENTIONAL_RANGE[16] = 0
+LONG_CONVENTIONAL_RANGE[17] = 0
+LONG_CONVENTIONAL_RANGE[18] = 0
+LONG_CONVENTIONAL_RANGE[19] = 0
+LONG_CONVENTIONAL_RANGE[20] = 0
+LONG_CONVENTIONAL_RANGE[21] = 0
+LONG_CONVENTIONAL_RANGE[22] = 0
+LONG_CONVENTIONAL_RANGE[23] = 0
+LONG_CONVENTIONAL_RANGE[24] = 0
+LONG_CONVENTIONAL_RANGE[25] = 0
+
+;Muton_Wpn_BaseDamage = (Damage=5, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred = 1, Tag = "", DamageType="Projectile_BeamAlien")
+
+LOSTORK_SHOOTA_TIER1_WPN_BASEDAMAGE = (Damage=3, Spread = 1, PlusOne = 0, Crit = 0, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+LOSTORK_SHOOTA_TIER2_WPN_BASEDAMAGE = (Damage=4, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+LOSTORK_SHOOTA_TIER3_WPN_BASEDAMAGE = (Damage=5, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+
+LOSTORK_BRAINBOY_TIER1_WPN_BASEDAMAGE = (Damage=3, Spread = 1, PlusOne = 0, Crit = 0, Pierce = 0, Shred = 0, Tag = "", DamageType="Electrical")
+LOSTORK_BRAINBOY_TIER2_WPN_BASEDAMAGE = (Damage=4, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred = 0, Tag = "", DamageType="Electrical")
+LOSTORK_BRAINBOY_TIER3_WPN_BASEDAMAGE = (Damage=5, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred = 0, Tag = "", DamageType="Electrical")
+
+LOSTORKNOB_SHOOTA_TIER1_WPN_BASEDAMAGE = (Damage=4, Spread = 1, PlusOne = 0, Crit = 0, Pierce = 0, Shred = 1, Tag = "", DamageType="Projectile_Conventional")
+LOSTORKNOB_SHOOTA_TIER2_WPN_BASEDAMAGE = (Damage=6, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred = 1, Tag = "", DamageType="Projectile_Conventional")
+LOSTORKNOB_SHOOTA_TIER3_WPN_BASEDAMAGE = (Damage=8, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred = 1, Tag = "", DamageType="Projectile_Conventional")
+
+LOSTORKLOOTA_SHOOTA_TIER1_WPN_BASEDAMAGE = (Damage=5, Spread = 1, PlusOne = 0, Crit = 0, Pierce = 0, Shred = 1, Tag = "", DamageType="Projectile_Conventional")
+LOSTORKLOOTA_SHOOTA_TIER2_WPN_BASEDAMAGE = (Damage=7, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred = 1, Tag = "", DamageType="Projectile_Conventional")
+LOSTORKLOOTA_SHOOTA_TIER3_WPN_BASEDAMAGE = (Damage=9, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred = 1, Tag = "", DamageType="Projectile_Conventional")
+
+LOSTORK_SLUGGA_TIER1_WPN_BASEDAMAGE = (Damage=1, Spread = 0, PlusOne = 50, Crit = 0, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+LOSTORK_SLUGGA_TIER2_WPN_BASEDAMAGE = (Damage=2, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+LOSTORK_SLUGGA_TIER3_WPN_BASEDAMAGE = (Damage=3, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+
+LOSTORK_GRETCHEN_TIER1_WPN_BASEDAMAGE = (Damage=0, Spread = 0, PlusOne = 50, Crit = 0, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+LOSTORK_GRETCHEN_TIER2_WPN_BASEDAMAGE = (Damage=1, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+LOSTORK_GRETCHEN_TIER3_WPN_BASEDAMAGE = (Damage=1, Spread = 1, PlusOne = 50, Crit = 2, Pierce = 0, Shred = 0, Tag = "", DamageType="Projectile_Conventional")
+
+LOSTORK_GRETCHEN_idealRange=4
+
+LOSTORK_SHOOTA_IDEALRANGE=6
+LOSTORK_SLUGGA_IDEALRANGE=1
+
+Muton_MeleeAttack_BaseDamage= (Damage=7, Spread = 1, PlusOne = 0, Crit = 3, Pierce = 0, Shred=0, Tag = "", DamageType="Melee")
+Muton_idealRange=6
+
+LOOTA_IDEALRANGE=18
+
+AssaultRifle_Magnetic_iClipSize = 4
+AssaultRifle_Magnetic_iSoundRange = 27
+AssaultRifle_Magnetic_iEnvironmentDamage = 10
+
+LOST_MELEEATTACK_BASEDAMAGE=(Damage=2, Spread = 0, PlusOne = 66, Crit = 2, Pierce = 0, Shred=0, Tag = "", DamageType="Melee")
+
+THELOST_TIER1_MELEEATTACK_BASEDAMAGE=(Damage=3, Spread = 1, PlusOne = 0, Crit = 0, Pierce = 0, Shred=0, Tag = "", DamageType="Melee")
+THELOST_TIER2_MELEEATTACK_BASEDAMAGE=(Damage=4, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred=0, Tag = "", DamageType="Melee")
+THELOST_TIER3_MELEEATTACK_BASEDAMAGE=(Damage=5, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred=0, Tag = "", DamageType="Melee")
+
+ORKSKARBOYTIER1_MELEEATTACK_BASEDAMAGE=(Damage=4, Spread = 1, PlusOne = 0, Crit = 0, Pierce = 0, Shred=1, Tag = "", DamageType="Melee")
+ORKSKARBOYTIER2_MELEEATTACK_BASEDAMAGE=(Damage=5, Spread = 1, PlusOne = 0, Crit = 1, Pierce = 0, Shred=1, Tag = "", DamageType="Melee")
+ORKSKARBOYTIER3_MELEEATTACK_BASEDAMAGE=(Damage=7, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 0, Shred=1, Tag = "", DamageType="Melee")
+
+THELOST_HOWLER_TIER1_MELEEATTACK_BASEDAMAGE=(Damage=4, Spread = 1, PlusOne = 50, Crit = 1, Pierce = 0, Shred=2, Tag = "", DamageType="Melee")
+THELOST_HOWLER_TIER2_MELEEATTACK_BASEDAMAGE=(Damage=6, Spread = 1, PlusOne = 50, Crit = 2, Pierce = 0, Shred=2, Tag = "", DamageType="Melee")
+THELOST_HOWLER_TIER3_MELEEATTACK_BASEDAMAGE=(Damage=8, Spread = 1, PlusOne = 50, Crit = 2, Pierce = 0, Shred=2, Tag = "", DamageType="Melee")
+
+LOSTORKLOOTA_ZZAP_TIER3_WPN_BASEDAMAGE=(Damage=8, Spread = 4, PlusOne = 0, Crit = 4, Pierce = 10, Shred=0, Tag = "", DamageType="Electrical")
+
+OrkSlugga_Magnetic_iClipSize = 1
+
+LOOTADEFFGUNPLASMA_BaseDamage = (Damage=5, Spread = 1, PlusOne = 20, Crit = 2, Pierce = 0, Shred=2, Tag = "", DamageType="Explosion")
+
+LOOTADEFFGUNPLASMA_iSoundRange = 30
+LOOTADEFFGUNPLASMA_iEnvironmentDamage = 20
+; Supplies no longer set here - being manually edited in the Templates.
+; Trading Post values no longer set here - being manually edited in the Templates.
+LOOTADEFFGUNPLASMA_iPoints = 0
+LOOTADEFFGUNPLASMA_iClipSize = 1
+LOOTADEFFGUNPLASMA_Range = 27
+LOOTADEFFGUNPLASMA_Radius = 4
+
+OrkBurna_FLAMETHROWER_BASEDAMAGE=(Damage=0, Spread=0, PlusOne=0, Crit=0, Pierce=0, Tag = "", DamageType="Fire")
+OrkBurna_DEATH_EXPLOSION_BASEDAMAGE=(Damage=5, Spread=0, PlusOne=20, Crit=0, Pierce=0, Shred=1, Tag = "", DamageType="Explosion")
+
+OrkBurna_FLAMETHROWER_ISOUNDRANGE=30
+OrkBurna_FLAMETHROWER_IENVIRONMENTDAMAGE=10
+OrkBurna_FLAMETHROWER_ICLIPSIZE=1
+OrkBurna_FLAMETHROWER_RANGE=8
+OrkBurna_FLAMETHROWER_RADIUS=5
+OrkBurna_FLAMETHROWER_TILE_COVERAGE_PERCENT=50
+
+ORKPOWERKLAW_Wpn_BaseDamage = (Damage=3, Spread = 0, PlusOne = 50, Crit = 2, Pierce = 0, Shred = 0, Tag = "", DamageType="Melee")
+ORKPOWERKLAW_MeleeAoE_BaseDamage= (Damage=3, Spread = 0, PlusOne = 50, Crit = 2, Pierce = 0, Shred=0, Tag = "", DamageType="Melee")
+
+ORKPOWERKLAW_MELEEAOE_T1_BASEDAMAGE= (Damage=5, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 1, Shred=0, Tag = "", DamageType="Melee")
+ORKPOWERKLAW_MELEEAOE_T1_BASEDAMAGE= (Damage=7, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 2, Shred=0, Tag = "", DamageType="Melee")
+ORKPOWERKLAW_MELEEAOE_T3_BASEDAMAGE= (Damage=9, Spread = 1, PlusOne = 0, Crit = 2, Pierce = 3, Shred=0, Tag = "", DamageType="Melee")
+
+ORKPOWERKLAW_MeleeAoE_EnvDamage=10
+ORKPOWERKLAW_idealRange=2
+
+MEGANOB_ROCKETLauncher_BaseDamage = (Damage=4, Spread = 1, PlusOne = 20, Crit = 2, Pierce = 0, Shred=1, Tag = "", DamageType="Explosion")
+MEGANOB_ROCKETLauncher_iSoundRange = 30
+MEGANOB_ROCKETLauncher_iEnvironmentDamage = 20
+; Supplies no longer set here - being manually edited in the Templates.
+; Trading Post values no longer set here - being manually edited in the Templates.
+MEGANOB_ROCKETLauncher_iPoints = 0
+MEGANOB_ROCKETLauncher_iClipSize = 1
+MEGANOB_ROCKETLauncher_Range = 27
+MEGANOB_ROCKETLauncher_Radius = 4
+
+OrkGretchinMinion_AbilityDamage = (Damage=4, Spread = 1, PlusOne = 50, Crit = 0, Pierce = 0, Tag = "CapacitorDischarge", DamageType="Electrical")
+OrkGretchinMinion_AbilityDamage = (Damage=6, Spread = 1, PlusOne = 85, Crit = 0, Pierce = 0, Tag = "CapacitorDischarge_Robotic", DamageType="Electrical")
+OrkGretchinMinion_AbilityDamage = (Damage=2, Spread = 0, PlusOne = 50, Crit = 0, Pierce = 1000, Tag = "CombatProtocol_Robotic", DamageType="Electrical")
+
+OrkGretchinMinion_iSoundRange = 0
+OrkGretchinMinion_iEnvironmentDamage = 0
+OrkGretchinMinion_HackBonus = 0
+
+PSYCHICVOMIT_T1_BaseDamage = (Damage=3, Spread = 1, PlusOne = 10, Crit = 2, Pierce = 0, Shred=1, Tag = "", DamageType="Acid")
+PSYCHICVOMIT_T2_BaseDamage = (Damage=4, Spread = 1, PlusOne = 10, Crit = 2, Pierce = 0, Shred=2, Tag = "", DamageType="Acid")
+PSYCHICVOMIT_T3_BaseDamage = (Damage=5, Spread = 1, PlusOne = 10, Crit = 2, Pierce = 0, Shred=3, Tag = "", DamageType="Acid")
+
+PSYCHICVOMIT_iSoundRange = 30
+PSYCHICVOMIT_iEnvironmentDamage = 10
+; Supplies no longer set here - being manually edited in the Templates.
+; Trading Post values no longer set here - being manually edited in the Templates.
+PSYCHICVOMIT_iPoints = 0
+PSYCHICVOMIT_iClipSize = 1
+PSYCHICVOMIT_Range = 25
+PSYCHICVOMIT_Radius = 7
+
+DEFFDREADT1_Bind_BaseDamage= (Damage=3, Spread=0, PlusOne=25, Crit=0, Pierce=0, Shred=0, Tag = "", DamageType="Melee")
+DEFFDREADT2_Bind_BaseDamage= (Damage=5, Spread=0, PlusOne=25, Crit=0, Pierce=0, Shred=0, Tag = "", DamageType="Melee")
+DEFFDREADT3_Bind_BaseDamage= (Damage=10, Spread=0, PlusOne=25, Crit=0, Pierce=0, Shred=0, Tag = "", DamageType="Melee")
+
+BUZZSAWSWEEP_MELEEAOE_T1_BASEDAMAGE= (Damage=6, Spread = 2, PlusOne = 0, Crit = 2, Pierce = 0, Shred=1, Tag = "", DamageType="Melee")
+BUZZSAWSWEEP_MELEEAOE_T2_BASEDAMAGE= (Damage=9, Spread = 3, PlusOne = 0, Crit = 2, Pierce = 0, Shred=2, Tag = "", DamageType="Melee")
+BUZZSAWSWEEP_MELEEAOE_T3_BASEDAMAGE= (Damage=13, Spread = 3, PlusOne = 0, Crit = 2, Pierce = 0, Shred=3, Tag = "", DamageType="Melee")
+
+[Lost2Ork.X2Ability_OrkAbilities]
+
+ORKPOWERKLAW_LENGTH_TILES=3
+ORKPOWERKLAW_END_DIAMETER_TILES=5
+ORKPOWERKLAW_ENVIRONMENT_DAMAGE=15
+
+LOST_BURNING_DMG_MULTIPLIER=1.0	// Double the damage
+
+PSYCHICVOMIT_TILE_LENGTH=15
+PSYCHICVOMIT_TILE_WIDTH=5
+PSYCHICVOMIT_COOLDOWN=3
+
+[Lost2Ork.X2Effect_ArdBoyDeflect_T1]
+
++ArdBoyDeflectMinFocus=0
++ArdBoyDeflectPerFocusChance=0
+
++ReflectMinFocus=2
++ReflectBaseChance=40
+
++ArdBoyShieldPassiveDeflectT1Chance=30
+;+ArdBoyShieldPassiveDeflectT1Chance=11
+
+[Lost2Ork.X2Effect_ArdBoyDeflect_T2]
+
++ArdBoyDeflectMinFocus=0
++ArdBoyDeflectPerFocusChance=0
+
++ReflectMinFocus=2
++ReflectBaseChance=40
+
++ArdBoyShieldPassiveDeflectT2Chance=40
+;+ArdBoyShieldPassiveDeflectT2Chance=11
+
+[Lost2Ork.X2Effect_ArdBoyDeflect_T3]
+
++ArdBoyDeflectMinFocus=0
++ArdBoyDeflectPerFocusChance=0
+
++ReflectMinFocus=2
++ReflectBaseChance=40
+
++ArdBoyShieldPassiveDeflectT3Chance=50
+;+ArdBoyShieldPassiveDeflectT3Chance=11
+
+[Lost2Ork.X2Ability_DeffDreadAbilities]
+
+BIND_RANGE=96		; 1 tile in units
+DEFFDREADT1_BIND_FRAGILE_AMOUNT=4
+DEFFDREADT2_BIND_FRAGILE_AMOUNT=8
+DEFFDREADT3_BIND_FRAGILE_AMOUNT=12
+BIND_ABILITY_ALIASES="Bind"
+GET_OVER_HERE_ABILITY_ALIASES="GetOverHere"
+
+DEFFDREADBUZZSAWS_LENGTH_TILES=2
+DEFFDREADBUZZSAWS_END_DIAMETER_TILES=5
+DEFFDREADBUZZSAWS_ENVIRONMENT_DAMAGE=15
+
+;BIND_RANGE=192		; 1 tile in units
